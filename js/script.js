@@ -1,10 +1,12 @@
 console.log("hello, world!")
 console.log(23+97);
+//Variables
 let a=10;
 console.log(a);
 9*a
 let b=7*a;
 console.log(b)
+//Constant values can't be overwritten
 const max=57;
 const actual =max-13;
 const percentage=actual/max;
@@ -38,6 +40,11 @@ console.log(firstname+lastname) //display way2
 
 //JS Outputs
 alert("This string used alert to display");
-document.write("This string is displayed using document.write")
 document.getElementById("newid").innerHTML="This string is displayed using innerHtml";
-console.log("This string is displayed using console log which prints in browser's console")
+document.write("This string is displayed using document.write ");
+console.log("This string is displayed using console log which prints in browser's console");
+
+//User Input
+const x=prompt("User Input using prompt");
+document.write(x);
+
