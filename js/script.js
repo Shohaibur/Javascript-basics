@@ -1,28 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <h1 id="newid"> 
-  </h1>
-  <script>
-    console.log("hello, world!")
-    console.log(23+97);
-    let a=10;
-    console.log(a);
-    9*a
-    let b=7*a;
-    console.log(b)
-    const max=57;
-    const actual =max-13;
-    const percentage=actual/max;
-    console.log(percentage)
+console.log("hello, world!")
+console.log(23+97);
+let a=10;
+console.log(a);
+9*a
+let b=7*a;
+console.log(b)
+const max=57;
+const actual =max-13;
+const percentage=actual/max;
+console.log(percentage)
 
-    //Javascript String
-    const string = "The revolution will not be televised.";
+//Javascript String
+const string = "The revolution will not be televised.";
 console.log(string);
 
 const single = 'Single quotes';
@@ -52,6 +41,3 @@ alert("This string used alert to display");
 document.write("This string is displayed using document.write")
 document.getElementById("newid").innerHTML="This string is displayed using innerHtml";
 console.log("This string is displayed using console log which prints in browser's console")
-  </script>
-</body>
-</html>
