@@ -38,7 +38,7 @@ const lastname = "Rochi";
 console.log(`${firstname}${lastname}`) //display way1
 console.log(firstname+lastname) //display way2
 
-//JS Outputs
+//JS Outputs (4 ways to show js output)
 alert("This string used alert to display");
 document.getElementById("newid").innerHTML="This string is displayed using innerHtml";
 document.write("This string is displayed using document.write ");
