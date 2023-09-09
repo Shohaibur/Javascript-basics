@@ -39,3 +39,7 @@ x=" Shaoib  Rochi   " //' Shaoib   Rochi  '
 x.trim() // 'Shaoib   Rochi' //removes unnecessary spaces
 //Again this method only giving a result , we need to store it for using it
 z=x.trim(); // 'Shaoib   Rochi'
+
+//Slice method
+x="Shoaib";
+x.slice(1, 3) // ho // cut from index 1 to 3 //1 & 3 are parameters
