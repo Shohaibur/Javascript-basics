@@ -42,4 +42,16 @@ z=x.trim(); // 'Shaoib   Rochi'
 
 //Slice method
 x="Shoaib";
-x.slice(1, 3) // ho // cut from index 1 to 3 //1 & 3 are parameters
+x.slice(1, 3) // ho // 1=start & 3=end index //1 & 3 are parameters
+
+//substr method
+x="Shoaib";
+x.substr(2,2); // oa // (start index, length)
+
+// replace method
+x.replace("aib","bro") //'Shobro' //(replace,replace with)
+
+//Concat method
+x="Shoaib";
+y="Hello";
+x.concat(y,"Rochi"); // ShoaibHelloRochi
