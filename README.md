@@ -1,2 +1,2 @@
 # Javascript-basics
-## All the learnings from Bohubrihi on basic javascript
+## All the my learnings from Bohubrihi and Web on basic javascript
