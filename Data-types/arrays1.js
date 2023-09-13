@@ -19,6 +19,7 @@ console.log(countries); // ['BD', 'USA', 'Nepal', 'Norway']
 //What if indexing become wrong
 countries[6]="Sweden";
 console.log(countries); // ['BD', 'USA', 'Nepal', 'Norway', empty × 2, 'Sweden'] 
+
 //In this case best practice is 
 countries[countries.length]="Sweden"; //because indexing = length-1 (here length is 4,sweden is put in 4th index)
 console.log(countries); // ['BD', 'USA', 'Nepal', 'Norway','Sweden'] 
@@ -39,6 +40,6 @@ console.log(colors); //["red","blue"]
 //Shift - Unshift
 console.log(colors); //["red","blue"]
 colors.shift(); //'red'
-console.log(colors); //["blue"]  //removes 1st item 
-colors.unshift("White"); // 2  //add from beginning
+console.log(colors); //["blue"]  // shift removes 1st item 
+colors.unshift("White"); // 2  // unshift adds from beginning
 console.log(colors); // ['White', 'blue']
