@@ -18,3 +18,7 @@ console.log(arr[2][1].word2); // Rochi
 //Nested object accessing
 var obj = {item1:"i1",item2:"i2",item3:{i3i0:"i1 of item3",i3i1:"i2 of item3"}}
 obj.item3.i3i0 // 'i1 of item3'
+
+a=[1,3,{a:1,b:3,c:[1,3,4,{x:5,y:10}]}] ; // access value of 'x' ?
+console.log(a[2].c[3].x) // 5
+ 
