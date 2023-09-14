@@ -12,6 +12,7 @@ console.log(s) ;
 //how are 
 //you
 
+//usage and example
 let age = 26;
 console.log(`his age is ${age}`); //his age is 26
 
