@@ -1,3 +1,4 @@
+console.log("template literal contents:")
 //Es6 feature
 // Backtick `` 
 // Used to output multiple line of strings

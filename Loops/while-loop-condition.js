@@ -1,3 +1,4 @@
+console.log("while-loop-condition file contents:")
 //print value from 1 to 10 but when 5, print 'Value of j is 5'
 var j=1;
 while(j<=10){

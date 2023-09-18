@@ -1,3 +1,4 @@
+console.log("for-loop file contents:")
 //for (statement1; statement2; statement3){
  // code to be executed }
 
