@@ -42,3 +42,6 @@ var y="664";
 isNaN(y); //false 
 var z="135dfs";
 isNaN(z); //true (Characters mixed)
+<main>
+  
+</main>
