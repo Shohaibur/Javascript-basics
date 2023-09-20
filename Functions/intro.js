@@ -1,3 +1,4 @@
+console.log("Function intro file contents:")
 //there are 2 types of functions
 // 1, built in and 2. user defined
 //alert() , console.log() are build in functions
