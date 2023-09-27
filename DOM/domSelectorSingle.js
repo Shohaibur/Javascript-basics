@@ -1,4 +1,4 @@
-console.log("domSelector file contents:");
+console.log("domSelectorSingle file contents:");
 //select and access one or more HTML elements from an HTML doc\
 
 //technique 1 : getElementById
