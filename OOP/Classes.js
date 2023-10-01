@@ -37,7 +37,7 @@ class Person{
   }
 }
 
-
+//The constructor is a special method that creates and initializes a new object based on the class
 let p2 = new Person ("Maruf","Siddique","English");
 let p3 = new Person ("Shakib","Ahmed","BBA");
 let p4 = new Person ("Abrar", "Asif","CSE");
