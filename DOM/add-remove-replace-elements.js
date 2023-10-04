@@ -46,3 +46,21 @@ console.log(newHeading); // <h1>New Heading</h1>
 
 let oldHeading = document.querySelector('h3');
 console.log(oldHeading); //Some Random Contents
+
+let parent = document.querySelector('.container');
+console.log(parent); //div.container
+// to replace element we need to replace with parent class
+parent.replaceChild(newHeading, oldHeading); //replace to new heading value
+
+//remove an element
+//2 ways to remove element
+//remove an item using .remove()
+let listItem=document.querySelectorAll('li') //select all items of li tags
+console.log(listItem[0]); //c++
+listItem[0].remove(); //c++ will be removed
+console.log(listItem[0]); //after removing null or undefined
+
+//remove an item using removeChild() 
+//syntax : parentElement.removeChild(childElement)
+let list = document.querySelector('ul');
+list.removeChild(listItem[9]); //instagram will be removed
