@@ -64,3 +64,22 @@ console.log(listItem[0]); //after removing null or undefined
 //syntax : parentElement.removeChild(childElement)
 let list = document.querySelector('ul');
 list.removeChild(listItem[9]); //instagram will be removed
+
+//add new class
+list.classList.add("test"); //sample-class test will be created inside ul tag
+console.log(list);
+list.classList.add("test-new"); //classlist.add doesn't override previous but create new 
+console.log(list);
+
+//remove a class
+list.classList.remove("test-new"); //test-new class will be removed
+console.log(list);
+
+//add new attribute inside list
+let val =list.hasAttribute("class");
+console.log(val); //'true' because these is attribute named class inside list
+list.setAttribute("title","new title"); //'new title' named title will be created inside ul
+console.log(list)
+//remove attribute
+list.removeAttribute("title"); //title will be removed
+console.log(list)
