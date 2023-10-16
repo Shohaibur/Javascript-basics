@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <button onclick="alert('Hello world using onclick')">Click Me</button> <br><br><br>
+        <button onmouseover="alert('Hello world using onmouseover')">Hover over me</button> <br><br><br>
+   
+        <!-- using function in events -->
+        <button onmouseover=message()>Hover over me</button> <br><br><br>
+        
+        <!-- But using event listener in js file is better instead of directly using events in html file  -->
+        <button id="sample-btn">Click Me</button> <br><br><br>
+
+    </div>
+
+    <script src="Dom-events.js"></script>
+</body>
+
+</html>
