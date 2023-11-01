@@ -12,5 +12,5 @@ function messagefunc(){
   console.log("Button clicked"); //Button clicked output in console every time clicked
 }
 
-// Like 'click' ebent , there are many events such as: 'dblclick'
+// Like 'click' event , there are many events such as: 'dblclick'
 //Note: When using js events in html the event name start with on if.e. onclick, ondblclick but in js : 'click','dblclick'
