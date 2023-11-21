@@ -1,4 +1,4 @@
-console.log("for-in for-of file contents:")
+console.log("-->for-in for-of file contents:")
 //for-in work on string, array and object
 //for-of work on string and array
 
