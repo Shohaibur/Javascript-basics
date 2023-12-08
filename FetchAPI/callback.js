@@ -19,7 +19,7 @@ function setperson(person,call){
  setTimeout(function(){
   persons.push(person);
   call();
-},1000);
+},2000); //pushes after 2 sec of execution
 }
 
 function getperson() {
@@ -30,6 +30,6 @@ function getperson() {
     output += `<li>${persons[i].firstname} ${persons[i].lastname}</li>`
   };
   document.getElementById("personoutput").innerHTML = output;
-  },5000);
+  },5000); //after pushing wait for 5 sec so, output shows after 7 second
 }
 setperson ({firstname : "Saif", lastname : "Ivna" },getperson);
