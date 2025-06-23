@@ -5,3 +5,4 @@ let businessYear;
 let numberOfClients = 200;
 
 console.table([accId,accName,businessName,businessYear,numberOfClients]);
+console.log(typeof numberOfClients);
