@@ -32,4 +32,8 @@ const f= true;
 const F=Number(f);
 console.log(F);
 console.log(typeof(F));
+console.log("\n")
 
+const G=Boolean(f);
+console.log(G);
+console.log(typeof(G));
