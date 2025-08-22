@@ -4,7 +4,6 @@
 
 let name = "John"; // Stack Memory
 let varname = name; // Stack Memory
-
 let anotherName = "albert"; // Stack Memory
 
 console.log(varname); // John
